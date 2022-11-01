@@ -1,0 +1,7 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .lead__title {
+    max-width: calc(100% - 24px*2);
+    font-size: 46px;
+    line-height: 1.04;
+  }
+}

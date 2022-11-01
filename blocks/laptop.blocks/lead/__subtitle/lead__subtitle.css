@@ -1,0 +1,5 @@
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}

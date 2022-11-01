@@ -1,0 +1,9 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .lead__title {
+    max-width: calc(100% - 16px*2);
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+}

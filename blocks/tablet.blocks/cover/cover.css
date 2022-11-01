@@ -1,0 +1,7 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .cover {
+    max-width: 100%;
+    margin-bottom: 88px;
+    height: 480px;
+  }
+}

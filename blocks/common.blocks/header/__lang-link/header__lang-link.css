@@ -1,0 +1,20 @@
+.header__lang-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  cursor: url("../../../../images/Imported\ Layers\ Copy\ 4.png"), auto;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+.header__lang-link:first-of-type {
+  margin-right: 18px;
+}
+
+.header__lang-link:hover {
+  text-align: right;
+  text-decoration-line: underline;
+  opacity: .5;  
+}
