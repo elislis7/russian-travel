@@ -1,0 +1,13 @@
+.intro__text {
+  margin: 0;
+  margin-bottom: 33px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .intro__text {
+    margin-bottom: 34px;
+  }
+}

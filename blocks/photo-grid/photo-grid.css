@@ -1,0 +1,23 @@
+.photo-grid {
+  margin: 0 auto;
+  margin-bottom: 92px;
+  max-width: calc(100% - 48px*2);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+  gap: 16px;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .photo-grid {
+    max-width: calc(100% - 24px*2);
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .photo-grid {
+    max-width: calc(100% - 16px*2);
+    margin-bottom: 64px;
+  }
+}

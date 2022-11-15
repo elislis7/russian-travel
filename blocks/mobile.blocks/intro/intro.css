@@ -1,6 +1,0 @@
-@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
-  .intro {
-    margin-bottom: 64px;
-    max-width: calc(100% - 16px*2);
-  }
-}
