@@ -4,7 +4,6 @@
   font-size: 24px;
   line-height: 1.2;
   color: #FFFFFF;
-  cursor: url("../../../../images/Imported\ Layers\ Copy\ 4.png"), auto;
   transition-property: opacity;
   transition-duration: 1s;
 }
@@ -15,6 +14,12 @@
 
 .header__lang-link:hover {
   text-align: right;
-  text-decoration-line: underline;
-  opacity: .5;  
+  opacity: .8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 530px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.2;
+  }
 }
