@@ -4,7 +4,7 @@
   margin-right: 18px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 18px;
 }
 
 .footer__link-text:last-of-type {
@@ -20,7 +20,7 @@
     margin: 0;
     margin-bottom: 32px;
     font-size: 24px;
-    line-height: 1;
+    line-height: 24px;
   }
 
   .footer__link-text:last-of-type {

@@ -2,13 +2,13 @@
   text-decoration: none;
   font-weight: 400;
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 28px;
   color: #FFFFFF;
   transition-property: opacity;
   transition-duration: 1s;
 }
 
-.header__lang-link:first-of-type {
+.header__lang-link:not(:last-child) {
   margin-right: 18px;
 }
 
@@ -20,6 +20,5 @@
 @media screen and (min-width: 320px) and (max-width: 530px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 1.2;
   }
 }

@@ -3,29 +3,22 @@
   grid-row: 1;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.2;
-}
-
-@media screen and (min-width: 1024px) {
-  .place__title {
-    max-height: 152px;
-    font-size: 72px;
-    line-height: 1;
-  }
+  line-height: 76px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title {
-    max-height: 92px;
     font-size: 42px;
-    line-height: 1;
+    line-height: 46px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__title {
+    max-width: 100%;
+    margin-right: 16px;
+    margin-left: 16px;
     font-size: 32px;
-    line-height: 1.2;
-    max-height: 35px;
+    line-height: 35px;
   }
 }

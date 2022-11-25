@@ -1,15 +1,16 @@
 .lead__wrapper {
   margin: 0 auto;
+  max-width: calc(100% - 148px*2);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__wrapper {
-    width: calc(100% - 48px*2);
+    max-width: calc(100% - 48px*2);
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 320px) and (max-width: 1023px) {
   .lead__wrapper {
-    width: 100%;
+    max-width: 100%;
   }
 }
